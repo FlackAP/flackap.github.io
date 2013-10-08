@@ -29,6 +29,23 @@ body {
     padding: 0.2em 0;
 }
 
+#responsive_subtitle {
+    cursor: pointer; 
+}
+
+
+
+
+/* _______  _        _______  _______ __________________ _______          
+(  ___  )( \      (  ____ \(  ____ )\__   __/\__   __/(  ____ \|\     /|
+| (   ) || (      | (    \/| (    )|   ) (      ) (   | (    \/( \   / )
+| (___) || |      | (__    | (____)|   | |      | |   | (__     \ (_) / 
+|  ___  || |      |  __)   |     __)   | |      | |   |  __)     \   /  
+| (   ) || |      | (      | (\ (      | |      | |   | (         ) (   
+| )   ( || (____/\| (____/\| ) \ \__   | |   ___) (___| )         | |   
+|/     \|(_______/(_______/|/   \__/   )_(   \_______/|/          \_/   */
+
+
 .alertify,
 .alertify-show,
 .alertify-log {
@@ -244,13 +261,15 @@ body {
     color: #FFF;
     text-shadow: -1px -1px 0 rgba(0,0,0,.5);
 }
-    .alertify-log-error {
-        background: #FE1A00;
-        background: rgba(254,26,0,.9);
-    }
-    .alertify-log-success {
-        background: #5CB811;
-        background: rgba(92,184,17,.9);
-    }
+
+.alertify-log-error {
+    background: #FE1A00;
+    background: rgba(254,26,0,.9);
+}
+
+.alertify-log-success {
+    background: #5CB811;
+    background: rgba(92,184,17,.9);
+}
 
 

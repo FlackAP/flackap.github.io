@@ -5,4 +5,7 @@ $(document).ready(function(){
   		alertify.log("Created by Andy Flack", "", 5000);
 	});
 
+
+window.fitText( document.getElementById("responsive_headline"), .5 );
+window.fitText( document.getElementById("responsive_subtitle"), 1.5 );
 })
