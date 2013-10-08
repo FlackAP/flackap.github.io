@@ -10,7 +10,7 @@ body {
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.68);
     border-radius: 6px;
     padding: 60px;
     text-align:center;
@@ -81,7 +81,7 @@ body {
     }
 .alertify {
     position: fixed; z-index: 99999;
-    top: 50px; left: 50%;
+    top: 25%; left: 50%;
     width: 550px;
     margin-left: -275px;
     opacity: 1;
