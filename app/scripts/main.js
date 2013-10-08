@@ -2,7 +2,7 @@ console.log('\'Allo \'Allo!');
 $(document).ready(function(){
 	$( ".about" ).click(function() {
   		alertify.alert( "Prepare your heart and mind for internet wizardry! Coming soon!");
-  		alertify.log("Created by Andy Flack", "", 5000);
+  		alertify.log("Lovingly crafted by Andy Flack", "", 5000);
 	});
 
 
