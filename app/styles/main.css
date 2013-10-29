@@ -33,6 +33,10 @@ body {
     cursor: pointer; 
 }
 
+#responsive_intro {
+    margin-top:-40px;
+}
+
 .contact-box {
   background: #FFF;
     border: 10px solid #333;
@@ -113,6 +117,7 @@ body {
 @media (max-width: 900px) {
     .contact-box {
         width:80%;
+        top:-2px;
     }
 
 }

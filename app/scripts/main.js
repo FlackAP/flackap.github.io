@@ -2,7 +2,7 @@ console.log('\'Allo \'Allo!');
 $(document).ready(function(){
 
 	$( ".about" ).click(function() {
-  		alertify.alert( "Prepare your heart and mind for internet wizardry! Coming soon!");
+  		alertify.alert( "The personal site of front-end web developer Andy Flack. Information, portfolio, and much, much more coming soon!");
   		alertify.log("Lovingly crafted by Andy Flack", "", 5000);
 	});
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 
 window.fitText( document.getElementById("responsive_headline"), .5 );
-window.fitText( document.getElementById("responsive_about"), 1.5 );
-window.fitText( document.getElementById("responsive_contact"), 2.5 );
+window.fitText( document.getElementById("responsive_about"), 1.0 );
+window.fitText( document.getElementById("responsive_contact"), 2.0 );
 })
 
