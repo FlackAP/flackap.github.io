@@ -29,10 +29,49 @@ body {
     padding: 0.2em 0;
 }
 
-#responsive_subtitle {
+#responsive_contact, #responsive_about {
     cursor: pointer; 
 }
 
+.contact-box {
+    background: #FFF;
+    border: 10px solid #333;
+    border: 10px solid rgba(0,0,0,.7);
+    border-radius: 8px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.3);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    margin:0 auto;
+    text-align:center;
+    width:30%;
+    height:300px;
+    position:absolute;
+    top:80px;
+    bottom:0;
+    left:0;
+    right:0;
+    -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
+    -moz-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
+    -o-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
+    -ms-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
+    -webkit-transition:transform 1s ease;
+
+}
+
+.contact-active {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(0%, 0px, 0px);
+    -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(0%, 0px, 0px);
+    -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(0%, 0px, 0px);
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(0%, 0px, 0px);
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(0%, 0px, 0px);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
 
 
