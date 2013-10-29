@@ -11,6 +11,10 @@ $(document).ready(function(){
 
 	})
 
+	$('#close').click(function(){
+		$('.contact-box').removeClass('contact-active')
+	})
+
 
 window.fitText( document.getElementById("responsive_headline"), .5 );
 window.fitText( document.getElementById("responsive_about"), 1.5 );

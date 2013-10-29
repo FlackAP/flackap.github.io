@@ -50,12 +50,12 @@ body {
     right: 0;
     line-height:inherit;
     padding:20px;
-    -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
-    -moz-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
-    -o-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
-    -ms-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
+    -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 210%, 0px);
+    -moz-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 210%, 0px);
+    -o-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 210%, 0px);
+    -ms-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 210%, 0px);
     transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
-    -webkit-transition:transform 1s ease;
+    -webkit-transition:transform .5s ease;
 
 }
 
