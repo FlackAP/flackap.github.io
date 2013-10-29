@@ -34,23 +34,22 @@ body {
 }
 
 .contact-box {
-    background: #FFF;
+  background: #FFF;
     border: 10px solid #333;
     border: 10px solid rgba(0,0,0,.7);
     border-radius: 8px;
     box-shadow: 0 3px 3px rgba(0,0,0,.3);
-    -webkit-background-clip: padding;
-    -moz-background-clip: padding;
     background-clip: padding-box;
-    margin:0 auto;
-    text-align:center;
-    width:30%;
-    height:300px;
-    position:absolute;
-    top:80px;
-    bottom:0;
-    left:0;
-    right:0;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    width: 30%;
+    height: inherit;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    line-height:inherit;
+    padding:20px;
     -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
     -moz-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
     -o-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translate3d(0px, 110%, 0px);
@@ -72,6 +71,25 @@ body {
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
+.social {
+   width: 75%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.icon {
+        height:60px;
+        width:60px;
+        float:left;
+}
+
+.social a {
+    text-decoration:none;
+    line-height:4;
+}
+
 
 
 
