@@ -33,5 +33,6 @@ window.fitText( document.getElementById("responsive_headline"), .5 );
 window.fitText( document.getElementById("responsive_about"), 1.0 );
 window.fitText( document.getElementById("responsive_contact"), 1.75 );
 window.fitText( document.getElementById("responsive_portfolio"), 2.0 );
+window.fitText( document.getElementById("responsive_portfolio2"), 1.5 );
 })
 
