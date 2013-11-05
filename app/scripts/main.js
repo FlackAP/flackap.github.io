@@ -18,11 +18,13 @@ $(document).ready(function(){
 
 	$('.portfolio').click(function(){
 		$('.portfolio-box').addClass('portfolio-active')
+
 	});
 
 	$('.close').click(function(){
 		$('.contact-box').removeClass('contact-active')
 		$('.portfolio-box').removeClass('portfolio-active')
+
 	})
 
 

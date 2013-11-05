@@ -1,8 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
     background: url(https://raw.github.com/FlackAP/flackap.github.io/source/app/images/bonsai.jpg);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
     height:100%;
+    z-index:1;
+    overflow:scroll;
 }
 
 .hero-unit {
@@ -144,10 +150,11 @@ body {
     background-clip: padding-box;
     margin: 50px auto 0 auto;
     text-align: center;
-    width: 70%;
+    width: 78%;
     position: absolute;
     top:0px;
     left: 0;
+    overflow:scroll;
     right: 0;
     line-height:inherit;
     padding:20px;
@@ -229,6 +236,11 @@ body {
     display: inline-block;
 }
 
+#close {
+    vertical-align:bottom;
+}
+
+
 
 /*MEDIA QUERIES!*/
 
@@ -236,6 +248,23 @@ body {
     .contact-box {
         width:80%;
         top:-2px;
+    }
+
+    .description {
+        display:none;
+    }
+
+    .project {
+        height:auto;
+    }
+
+    .preview-link img {
+        height:100px;
+        width:150px;
+    }
+
+    #close {
+        vertical-align:bottom;
     }
 
 }
