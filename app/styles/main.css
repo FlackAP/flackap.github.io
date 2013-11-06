@@ -11,6 +11,10 @@ body {
     overflow:scroll;
 }
 
+.animated {
+    opacity:0;
+}
+
 .hero-unit {
      margin: 0 auto;
     width: 100%;
