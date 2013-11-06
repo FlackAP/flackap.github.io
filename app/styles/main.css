@@ -67,7 +67,9 @@ body {
 
 }
 
-
+#about {
+    color:rgba(19, 68, 41, 0.94);
+}
 
 #responsive_contact{
     cursor: pointer; 
@@ -167,7 +169,6 @@ body {
 #responsive_portfolio2 {
     margin-bottom:30px;
     color:white;
-
 }
 
 #responsive_portfolio2:hover {
@@ -213,6 +214,21 @@ body {
 
 #close {
     vertical-align:bottom;
+}
+
+/*BIO STYLES*/
+
+.bio-wrap {
+    width:90%;
+    margin:0 auto;
+}
+
+#responsive_bio {
+    margin-top:40px;
+}
+
+.bio p {
+    text-align: left
 }
 
 
