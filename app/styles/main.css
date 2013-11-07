@@ -168,10 +168,6 @@ body {
     color:white;
 }
 
-#responsive_portfolio2:hover {
-    -webkit-transform: perspective(500px) rotateX(-2deg) rotateY(-19deg);
-}
-
  h2 {
     font-size: 40px;
     margin-top: 7px;
@@ -257,8 +253,18 @@ body {
     }
 
 }
-
-
+@media (max-width:540px){
+    .subtitle {
+        font-size:11px
+    }
+    #responsive_contact{
+        font-size: 17px;
+    }
+    .preview-link img {
+        height: 150px;
+        width: 193px;
+    }    
+}
 
 
 .alertify-button,
