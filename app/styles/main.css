@@ -3,12 +3,15 @@ html {
 }
 
 body {
-    background: url(https://raw.github.com/FlackAP/flackap.github.io/source/app/images/bonsai.jpg);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
     height:100%;
     z-index:1;
     overflow:scroll;
+}
+
+.animated {
+    opacity:0;
 }
 
 .hero-unit {
@@ -27,28 +30,26 @@ body {
 }
 
 .hero-unit h1 {
-    font-size: 60px;
+    font-size: 45px;
     line-height: 1;
     letter-spacing: -1px;
     margin-top: 8px;
     margin-bottom: 0px;
-    -webkit-transform: perspective(500px);
-    -moz-transform: perspective(500px);
-    -o-transform: perspective(500px);
-    -ms-transform: perspective(500px);
-    transform: perspective(500px);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+
 }
 
-.hero-unit h1:hover {
-    -webkit-transform: perspective(500px) rotateX(15deg) rotateY(15deg);
-    -moz-transform: perspective(500px) rotateX(15deg) rotateY(15deg);
-    -o-transform: perspective(500px) rotateX(15deg) rotateY(15deg);
-    -ms-transform: perspective(500px) rotateX(15deg) rotateY(15deg);
+.header img {
+    height: 39px;
+    margin-left: -41px;
+    display: inline;
+}
+
+
+.header {
+    text-align:left;
+    width:39%;
+    margin:0 auto;
+
 }
 
 .browsehappy {
@@ -63,7 +64,9 @@ body {
 
 }
 
-
+#about {
+    color:rgba(19, 68, 41, 0.94);
+}
 
 #responsive_contact{
     cursor: pointer; 
@@ -163,7 +166,6 @@ body {
 #responsive_portfolio2 {
     margin-bottom:30px;
     color:white;
-
 }
 
 #responsive_portfolio2:hover {
@@ -184,13 +186,11 @@ body {
     vertical-align: top;
 }
 
-.preview-link {
-    text-decoration:none;
-}
 
 .project img {
     height: 195px;
     width: 93%;
+    margin-bottom:40px;
 }
 
 .project h3 {
@@ -209,6 +209,24 @@ body {
 
 #close {
     vertical-align:bottom;
+}
+
+/*BIO STYLES*/
+
+.bio-wrap {
+    width: 67%;
+    margin: 0 auto;
+    padding-bottom: 119px;
+}
+
+#responsive_bio {
+    margin-top:40px;
+}
+
+
+
+.bio p {
+    text-align: left
 }
 
 
