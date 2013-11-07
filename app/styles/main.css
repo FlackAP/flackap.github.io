@@ -254,6 +254,10 @@ body {
 
 }
 @media (max-width:540px){
+    .hero-unit h1 {
+        font-size: 40px;
+    }
+
     .subtitle {
         font-size:11px
     }
