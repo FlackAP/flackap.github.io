@@ -186,13 +186,11 @@ body {
     vertical-align: top;
 }
 
-.preview-link {
-    text-decoration:none;
-}
 
 .project img {
     height: 195px;
     width: 93%;
+    margin-bottom:40px;
 }
 
 .project h3 {
@@ -216,8 +214,9 @@ body {
 /*BIO STYLES*/
 
 .bio-wrap {
-    width:90%;
-    margin:0 auto;
+    width: 67%;
+    margin: 0 auto;
+    padding-bottom: 119px;
 }
 
 #responsive_bio {

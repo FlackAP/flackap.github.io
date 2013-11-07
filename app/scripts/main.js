@@ -31,9 +31,5 @@ $(document).ready(function(){
     }
     });    
 
-
-
-	window.fitText( document.getElementById("responsive_portfolio2"), 2.5 );
-    window.fitText( document.getElementById("responsive_bio"), 2.5 );
 })
 
