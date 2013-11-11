@@ -187,6 +187,7 @@ body {
     height: 195px;
     width: 93%;
     margin-bottom:40px;
+    box-shadow: 2px 2px 7px rgba(33, 122, 72, 0.32);
 }
 
 .project h3 {
