@@ -47,7 +47,7 @@ body {
 
 .header {
     text-align:left;
-    width: 66%;
+    width: 932px;
     margin:0 auto;
 
 }
@@ -211,7 +211,7 @@ body {
 /*BIO STYLES*/
 
 .bio-wrap {
-    width: 67%;
+    width:1000px;
     margin: 0 auto;
     padding-bottom: 119px;
 }
@@ -229,6 +229,17 @@ body {
 
 
 /*MEDIA QUERIES!*/
+
+@media (max-width:1010px) {
+    .header {
+        width:67%;
+    }
+
+    .bio-wrap {
+        width: 67%;
+    }
+}
+
 
 @media (max-width: 900px) {
     .contact-box {
@@ -260,7 +271,8 @@ body {
     }
 
     .subtitle {
-        font-size:11px
+        font-size:11px;
+        line-height:13px;
     }
     #responsive_contact{
         font-size: 17px;
