@@ -210,10 +210,24 @@ body {
 
 /*BIO STYLES*/
 
+.bio {
+    background-color: rgba(73, 199, 133, 0.66);
+    padding-top: 3px;
+    margin-bottom: 42px;
+    height: 100%;
+    padding-bottom: 33px;
+}
+
+
 .bio-wrap {
-    width:1000px;
+    width: 1000px;
     margin: 0 auto;
-    padding-bottom: 119px;
+    margin-top: 35px;
+    padding-bottom: 2px;
+    padding: 25px;
+    padding-top: 2px;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.72);;
 }
 
 #responsive_bio {
