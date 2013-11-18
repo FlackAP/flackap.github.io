@@ -204,14 +204,18 @@ module.exports = function (grunt) {
             //
             //     <!-- build:css({.tmp,app}) styles/main.css -->
             //
-            // dist: {
-            //     files: {
-            //         '<%= yeoman.dist %>/styles/main.css': [
-            //             '.tmp/styles/{,*/}*.css',
-            //             '<%= yeoman.app %>/styles/{,*/}*.css'
-            //         ]
-            //     }
-            // }
+            dist: {
+                files: {
+                    '<%= yeoman.dist %>/styles/main.css': [
+                        '.tmp/styles/main/{,*/}*.css',
+                        '<%= yeoman.app %>/styles/main/{,*/}*.css'
+                    ],
+                    '<%= yeoman.dist %>/styles/resume.css': [
+                        '.tmp/styles/resume/{,*/}*.css',
+                        '<%= yeoman.app %>/styles/resume/{,*/}*.css'
+                    ]
+                }
+            }
         },
         htmlmin: {
             dist: {
