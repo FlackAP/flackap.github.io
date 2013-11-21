@@ -72,6 +72,11 @@ body {
     cursor: pointer; 
 }
 
+#responsive_contact a {
+    text-decoration: none;
+    color:rgba(19, 68, 41, 0.94);
+}
+
 #responsive_intro {
     margin-top:-40px;
 }
