@@ -1,6 +1,3 @@
-$('.contact-box').removeClass('contact-active')
-
-
 $(document).ready(function(){
 	$('.contact-box').removeClass('contact-active')
 
