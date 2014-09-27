@@ -93,7 +93,7 @@ gulp.task('bower-components', function () {
   .pipe(gulp.dest('dist/bower_components'))
 });
 
-// bower components
+// favicon
 gulp.task('favicon', function () {
   gulp.src('src/favicon.ico')
   .pipe(gulp.dest('dist'))

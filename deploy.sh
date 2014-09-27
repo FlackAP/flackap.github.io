@@ -2,7 +2,7 @@
 set -o errexit #abort if any command fails
 
 deploy_directory=dist
-deploy_branch=gh-pages
+deploy_branch=new
 
 #if no user identity is already set in the current git environment, use this:
 default_username=deploy.sh
