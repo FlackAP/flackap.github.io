@@ -1,0 +1,134 @@
+extends /layouts/main
+
+block content
+  a#menu-open.btn.btn-dark.btn-lg.toggle(href='#')
+    i.fa.fa-list-alt
+  nav#sidebar
+    ul.sidebar-nav
+      a#menu-close.btn.btn-dark.btn-lg.pull-right.toggle(href='#')
+        i.fa.fa-times
+      li.sidebar-brand
+        a(href='#top') FlackAP
+      li
+        a(href='#about') About
+      li
+        a(href='#portfolio') Portfolio
+      li
+        a(href='#contact') Contact
+
+  header#top.header
+    .text-vertical-center
+      h1 
+        img(src="/images/bonsai.png")
+        | Flack AP
+      #subheadline
+        h3 
+          | <em>proper noun</em> \ˈflak-'ā-pē \ :
+          br
+          | Andy Flack, a front-end web developer with a passion for life-long education, sustainable coffee, and professional wrestling 
+      br
+      a.btn.btn-dark.btn-lg(href='#about') Find Out More
+
+  section#about.about
+    .container
+      .row
+        .col-lg-12.text-center
+          h2 Here's some cool stuff about me and my stupid life!!
+
+  section#services.services.bg-primary
+    .container
+      .row.text-center
+        .col-lg-10.col-lg-offset-1
+          h2 WHAT I DO
+          hr.small
+          .row
+            .col-md-3.col-sm-6
+              .service-item
+                span.fa-stack.fa-4x
+                  i.fa.fa-circle.fa-stack-2x
+                  i.fa.fa-cloud.fa-stack-1x.icon
+                h4
+                  strong Service Name
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                a.btn.btn-light(href='#') Learn More
+            .col-md-3.col-sm-6
+              .service-item
+                span.fa-stack.fa-4x
+                  i.fa.fa-circle.fa-stack-2x
+                  i.fa.fa-compass.fa-stack-1x.icon
+                h4
+                  strong Service Name
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                a.btn.btn-light(href='#') Learn More
+            .col-md-3.col-sm-6
+              .service-item
+                span.fa-stack.fa-4x
+                  i.fa.fa-circle.fa-stack-2x
+                  i.fa.fa-flask.fa-stack-1x.icon
+                h4
+                  strong Service Name
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                a.btn.btn-light(href='#') Learn More
+            .col-md-3.col-sm-6
+              .service-item
+                span.fa-stack.fa-4x
+                  i.fa.fa-circle.fa-stack-2x
+                  i.fa.fa-shield.fa-stack-1x.icon
+                h4
+                  strong Service Name
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                a.btn.btn-light(href='#') Learn More
+
+  aside.callout
+    .text-vertical-center
+      h1 Vertically Centered Text
+
+  section#portfolio.portfolio
+    .container
+      .row
+        .col-lg-10.col-lg-offset-1.text-center
+          h2 Great Stock Photos
+          hr.small
+          .row
+            .col-md-6
+              .portfolio-item
+                a(href='#')
+                  img.img-portfolio.img-responsive(src='images/portfolio-1.jpg')
+            .col-md-6
+              .portfolio-item
+                a(href='#')
+                  img.img-portfolio.img-responsive(src='images/portfolio-2.jpg')
+            .col-md-6
+              .portfolio-item
+                a(href='#')
+                  img.img-portfolio.img-responsive(src='images/portfolio-3.jpg')
+            .col-md-6
+              .portfolio-item
+                a(href='#')
+                  img.img-portfolio.img-responsive(src='images/portfolio-4.jpg')
+
+          a.btn.btn-dark(href='#') View More Items
+
+  aside.call-to-action.bg-primary
+    .container
+      .row
+        .col-lg-12.text-center
+          h3 Click these buttons
+          a.btn.btn-lg.btn-light(href='#') Click Me!
+          a.btn.btn-lg.btn-dark(href='#') Look at Me!
+  footer
+    .container
+      .row
+        .col-lg-10.col-lg-offset-1.text-center
+          ul.list-inline
+            li
+              a(href='#')
+                i.fa.fa-envelope.fa-fw.fa-3x
+            li
+              a(href='#')
+                i.fa.fa-twitter.fa-fw.fa-3x
+            li
+              a(href='#')
+                i.fa.fa-github.fa-fw.fa-3x
+          hr.small
+          p.text-muted Copyright © Andy Flack 2014
