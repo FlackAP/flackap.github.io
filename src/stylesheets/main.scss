@@ -11,6 +11,10 @@ body {
   font-family: "Hind","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+p {
+  font-size:16px;
+}
+
 a, .icon {
   color: #33B281;
 }
@@ -157,7 +161,7 @@ hr.small {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../images/bg.jpg) no-repeat center center scroll;
+  background: url(../images/mountains.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -180,6 +184,34 @@ hr.small {
   padding: 50px 0;
 }
 
+.about-photo {
+  width: 100%;
+  border-radius:200px;
+  position: relative;
+  float: left;
+  top:-20px;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+.come-in {
+  transform: translatex(200px);
+  animation: come-in 2s ease forwards;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
 /* Services */
 
 .service-item {
@@ -193,11 +225,22 @@ hr.small {
   width: 100%;
   height: 400px;
   color: #fff;
-  background: url(../images/callout.jpg) no-repeat center center scroll;
+  position:relative;
+  background: url(../images/bg.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
+  @media (max-width:768px) {
+    background: #07754F;
+  }
+
+  .skill {
+    background-color: rgba(94, 135, 128, 0.49);
+    padding: 9px 0px;
+    border-radius: 4px;
+  }
 }
 
 /* Portfolio */
@@ -217,12 +260,15 @@ hr.small {
   }
 }
 
-/* Call to Action */
+/* testimonial */
 
-.call-to-action {
+.testimonial {
   padding: 50px 0;
-  .btn {
-    margin: 10px;
+}
+
+.mobile-rule {
+  @media (min-width:992px){
+    display:none;
   }
 }
 

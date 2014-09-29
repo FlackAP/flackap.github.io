@@ -1,0 +1,6 @@
+mixin blogFeed (blog)
+  script
+    :js
+      $(function(){
+        tumblrFeed("http://#{blog}.tumblr.com/rss/", $(".recent"));
+      })

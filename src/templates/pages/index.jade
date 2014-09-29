@@ -1,4 +1,5 @@
 extends /layouts/main
+include /mixins/blog
 
 block content
   a#menu-open.btn.btn-dark.btn-lg.toggle(href='#')
@@ -33,55 +34,50 @@ block content
     .container
       .row
         .col-lg-12.text-center
-          h2 Here's some cool stuff about me and my stupid life!!
+          h2 Who Is Flack AP?
+        .col-lg-12
+          .col-md-9
+            p(style="margin:0 auto; max-width:900px") 
+              |My name is Andy Flack, and I'm a front end web developer. My story is a winding tale of seeking fortune in studies of history, art, and sustainable coffee. You can read more about that on my <a href="/resume">resume</a> if you'd like, but the most important thing you should know about me is that I love working with people to solve problems, and that's why the world of programming is my place. I've never found a more welcoming community of people tenacious enough to tackle problems that will eventually effect almost every person on the planet.
+              br
+              br
+              | cool
+          .col-md-3
+            img.about-photo(src="/images/flackap.jpg")
 
-  section#services.services.bg-primary
+  aside.callout
     .container
       .row.text-center
         .col-lg-10.col-lg-offset-1
-          h2 WHAT I DO
-          hr.small
+          h2(style="margin-top:40px") Tools of the Trade
           .row
-            .col-md-3.col-sm-6
-              .service-item
-                span.fa-stack.fa-4x
-                  i.fa.fa-circle.fa-stack-2x
-                  i.fa.fa-cloud.fa-stack-1x.icon
-                h4
-                  strong Service Name
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                a.btn.btn-light(href='#') Learn More
-            .col-md-3.col-sm-6
-              .service-item
-                span.fa-stack.fa-4x
-                  i.fa.fa-circle.fa-stack-2x
-                  i.fa.fa-compass.fa-stack-1x.icon
-                h4
-                  strong Service Name
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                a.btn.btn-light(href='#') Learn More
-            .col-md-3.col-sm-6
-              .service-item
-                span.fa-stack.fa-4x
-                  i.fa.fa-circle.fa-stack-2x
-                  i.fa.fa-flask.fa-stack-1x.icon
-                h4
-                  strong Service Name
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                a.btn.btn-light(href='#') Learn More
-            .col-md-3.col-sm-6
-              .service-item
-                span.fa-stack.fa-4x
-                  i.fa.fa-circle.fa-stack-2x
-                  i.fa.fa-shield.fa-stack-1x.icon
-                h4
-                  strong Service Name
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                a.btn.btn-light(href='#') Learn More
-
-  aside.callout
-    .text-vertical-center
-      h1 Vertically Centered Text
+            .col-md-4.col-sm-6
+              .skill
+                .service-item
+                  span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fa.fa-html5.fa-stack-1x.icon
+                  h4
+                    strong HTML5/CSS3
+                  p Using clean markup and stylesheets, I make it a point to write legible code that is easy to read and understand even if someone else comes in and touches my existing work.
+            .col-md-4.col-sm-6
+              .skill
+                .service-item
+                  span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fa.fa-code.fa-stack-1x.icon
+                  h4
+                    strong JavaScript
+                  p Whether I'm animating some CSS, implementing server-side solutions with node, or utilizing an MVC-style framework, Javascript is how the user experience comes to life.
+            .col-md-4.col-sm-6
+              .skill
+                .service-item
+                  span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fa.fa-mobile.fa-stack-1x.icon
+                  h4
+                    strong Mobile-First Dev
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
   section#portfolio.portfolio
     .container
@@ -109,15 +105,34 @@ block content
 
           a.btn.btn-dark(href='#') View More Items
 
-  aside.call-to-action.bg-primary
+  aside#testimonials.testimonial.bg-primary
     .container
       .row
         .col-lg-12.text-center
-          h3 Click these buttons
-          a.btn.btn-lg.btn-light(href='#') Click Me!
-          a.btn.btn-lg.btn-dark(href='#') Look at Me!
+          h2 I dont want to toot my own horn
+          h3 
+            |(so here's what others are saying)
+          .col-md-6(style="margin-top:20px")
+            p(style="text-align:left") 
+              |"I had the pleasure of working with Andy in the development of our consumer mobile product at ChartSpan Medical Technologies. He shined as a Developer and problem solver, with the ability to stand out as an individual performer or member of our Dev Team.
+              br
+              br
+              |Andy is infectiously calm during times of stress and pragmatic in his problem solving approach. His knowledge of client and server side development concepts and languages, as well as his ability as a cross platform tester were critical to our success. 
+              br
+              br 
+              |Andy's competency is matched by his humor and wit...a welcomed trait during the frequent and mundane stretches of laborious development tasks. Andy is a gem and someone who is always welcomed on my team"
+              br
+              h4(style="margin-top:40px ") -Jon-Michial Carter, Co-Founder - ChartSpan Medical Technologies
+              hr.mobile-rule
+          .col-md-6(style="margin-top:20px")
+            p(style="text-align:left")
+              |"Here's a kid who didn't know anything about HTML a short time ago, let alone anything about JavaScript or object oriented programming. The look on his face when I told him I needed him to learn Objective-C was priceless, and one I'll never forget. It went from fear, to excitement, to determination in less than five seconds. 
+              br
+              br
+              |. . .Andy had a better grasp of object oriented principles and Objective-C after thirty days than I could have ever imagined for a person of his experience. He proved to me that he has an insatiable hunger for learning and a desire to face audacious challenges head on, two traits I find highly desirable in every person I hire. I'd be happy to have Andy on my team any day."
+              h4(style="margin-top:40px ") -Terry Horner, Data Scientist - Keen IO
   footer
-    .container
+    .container#contact
       .row
         .col-lg-10.col-lg-offset-1.text-center
           ul.list-inline
@@ -130,5 +145,10 @@ block content
             li
               a(href='#')
                 i.fa.fa-github.fa-fw.fa-3x
+            li
+              a(href='#')
+                i.fa.fa-tumblr.fa-fw.fa-3x
           hr.small
           p.text-muted Copyright © Andy Flack 2014
+
+  +blogFeed('FlackAP')
