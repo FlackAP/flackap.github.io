@@ -99,6 +99,7 @@ gulp.task('favicon', function () {
   .pipe(gulp.dest('dist'))
 });
 
+
 //                         __     __          _ __    __
 //   ____ ______________  / /_   / /_  __  __(_) /___/ /
 //  / __ `/ ___/ ___/ _ \/ __/  / __ \/ / / / / / __  / 
@@ -264,6 +265,7 @@ gulp.task('build-step-1', ['clean'], function(){
   gulp.start('asset-build-promise');
   gulp.start('fonts');
   gulp.start('favicon');
+  gulp.start('bower-components');
   return assetsPromise.promise;
 
 });
