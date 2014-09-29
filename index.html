@@ -1,117 +1,158 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>FlackAP: Web Development and Design</title>
-        <meta name="description" content="">
+<!DOCTYPE html>
+<html>
+  <head><!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <title>FlackAP</title>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/stylesheets/main.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/c7c87f7f.main.css">
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-        <div class="hero-unit">
-            <div class="header">
-                <h1 id="headline"><img src="images/09d78e1f.bonsai.png">FlackAP</h1>
-
-                <h3 class="subtitle" id="responsive_subtitle"><strong><em>proper noun</em></strong> \ˈflak-'ā-pē \
-                :<br> Andy Flack, a front-end web developer with a passion for life-long education, sustainable coffee, and professional wrestling </h3>
-
-                <h3 id="responsive_contact"><a href="#bio-link" id="about" style="text-decoration:none">ABOUT</a> •<span class="contact"> CONTACT</span> </h3>
+      </head>
+    </html>
+  </head>
+  <body><a id="menu-open" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-list-alt"></i></a>
+    <nav id="sidebar">
+      <ul class="sidebar-nav"><a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand"><a href="#top">FlackAP</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="top" class="header">
+      <div class="text-vertical-center">
+        <h1><img src="/images/bonsai.png">Flack AP</h1>
+        <div id="subheadline">
+          <h3><em>proper noun</em> \ˈflak-'ā-pē \ :<br>Andy Flack, a front-end web developer with a passion for life-long education, sustainable coffee, and professional wrestling </h3>
+        </div><br><a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
+    </header>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Who Is Flack AP?</h2>
+          </div>
+          <div class="col-lg-12">
+            <div class="col-md-9">
+              <p style="margin:0 auto; max-width:900px">My name is Andy Flack, and I'm a front end web developer. My story is a winding tale of seeking fortune in studies of history, art, and sustainable coffee. You can read more about that on my <a href="/resume">resume</a> if you'd like, but the most important thing you should know about me is that I love working with people to solve problems, and that's why the world of programming is my place. I've never found a more welcoming community of people tenacious enough to tackle problems that will eventually effect almost every person on the planet.</p>
             </div>
-                    
-            <div class="project-container">
-                <h1 id="responsive_portfolio2">Projects</h1>
-                <div class="project">
-                    <a class="preview-link" href="http://flackap.com/instagrab" target="_blank">
-                        <img src="https://raw.github.com/FlackAP/flackap.github.io/source/app/images/instagrab.png">
-                    </a>
-                    <p class="description">Serving as my final project in The   Iron Yard Academy, instagrab is a web-app that aims to further personalize the Instagram user experience by allowing you to search user-specific tags using the Instagram API. This project proved to be much more challenging than I initially imagined, but I've learned a great deal in the process and have some exciting new features coming down the pipe.</p>
-                </div>
-
-                <div class="project">
-                    <a class="preview-link" href="http://flackap.com/Welcome-Packet" target="_blank">
-                        <img src="images/2e8463fd.IronYard.png">
-                    </a>
-                    <p class="description">After graduating from the academy, I was approached by The Iron Yard to create a series of web-pages for their cowork spaces. The idea behind the project was to eliminate waste, as the welcoming packet was previously printed from PDF files to paper. Given the freedom to design and develop the pages myself,  this is my first freelance project and one of my personal favorites.</p>
-                </div>  
-
-                <div class="project">
-                    <a class="preview-link" href="http://joe-vanleeuwen.github.io/buzzME" target="_blank">
-                        <img src="https://raw.github.com/FlackAP/flackap.github.io/source/app/images/buzzME.png">
-                    </a>
-                    <p class="description">buzzME is a chat application that I created with the help of two fellow Iron Yard students. My role in the project was focused on the layout, styling, and user interface and also included testing and debugging the live update feature.</p>
-                </div>
-
-                <div class="project">
-                    <a class="preview-link" href="http://flackap.com/Taskmaster" target="_blank">
-                        <img src="images/9439c109.Taskmaster.png">
-                    </a>
-                    <p class="description">Taskmaster is a simple to-do list application that proved to be no simple task. Using Parse.js as a backend, I was able to build an easy-to-use webapp that creates new tasks as well as deletes tasks that have been completed. Planned features include user permissions/log-in functionality and the ability to add in-depth information for each task.</p>
-                </div>
-
-                <div class="project">
-                    <a class="preview-link" href="http://flackap.com/responsive-layout" target="_blank">
-                        <img src="https://raw.github.com/FlackAP/flackap.github.io/source/app/images/responsive.png">
-                    </a>
-                    <p class="description">Another Iron Yard project, this assignment was an exercise in designing a web page that can be viewed on any device- from the monitor on your desk to the smartphone in the palm of your hand. I was given two image files with the site layed out for me and challenged to duplicate the full and mobile versions using html5, css3, and media queries.</p>
-                </div>
-
-            </div>
-
-            <div class="bio" name="bio-link">
-                <div class="bio-wrap">
-                    <h2 id="responsive_bio">Greetings, traveler.</h2> 
-                    <p>My name is Andy Flack, and I'm a front end web developer. My story is a winding tale of seeking fortune in studies of history, art, and sustainable coffee. You can read more about that on my resume if you'd like, but the most important thing you should know about me is that I love working with people to solve problems, and that's why the world of programming is my place. I've never found a more welcoming community of people tenacious enough to tackle problems that will eventually effect almost every person on the planet. Try not to think about it too long, because that's some mind-blowing stuff.</p>
-
-                    <p>I recently graduated from <a href="http://theironyard.com/education" target="_blank">The Iron Yard Academy,</a> an intensive, 3-month program that took me from zero to Backbone.js. Becoming a programmer was a wild experience. Not only did I learn to build fully-functional web apps, but I also learned how to think like an engineer. I've found myself applying an equally formulaic and intuitive way of thinking to nearly every problem I've run into outside of my studies, I'm more cool and collected whenever something doesn't go my way, and I'm far less willing to give up when I do encounter roadblocks. I often joke that I'm on the road to becoming an internet wizard, but I truly feel like I've learned some magical stuff. To get a good idea of how I work, check out my <a href="http://osrc.dfm.io/flackap" target="_blank">Open Source Report Card</a>.</p>
-
-                    <h4>I can't wait for the opportunity to apply these skills to great projects alongside great people.</h4>
-
-                    <p>When I'm not hacking, you can generally find me playing music (bass, drums, and keyboard), discovering new craft beer, or playing with the greatest dog in the world (sorry fellow pet-owners!), Rocky.</p>
-                </div>  
-            </div>
+            <div class="col-md-3"><img src="/images/flackap.jpg" class="about-photo"></div>
+          </div>
         </div>
-
-
-        <!-- CONTACT MODAL -->
-
-        <div class="contact-box hero-unit">
-            <h3>Contact Me</h3>
-            <p>Check out my Github profile to see what I've been working on and feel free to shoot me an e-mail with any questions or comments!</p>
-            <div class="social">
-                <img class="icon" src="https://raw.github.com/FlackAP/flackap.github.io/source/app/images/github.png">
-                <a href="http://Github.com/FlackAP">Github: FlackAP</a>
+      </div>
+    </section>
+    <aside class="callout">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2 style="margin-top:40px">Tools of the Trade</h2>
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="skill">
+                  <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-html5 fa-stack-1x icon"></i></span>
+                    <h4><strong>HTML5/CSS3</strong></h4>
+                    <p>Using clean markup and stylesheets, I make it a point to write legible code that is easy to read and understand even if someone else comes in and touches my existing work.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="skill2">
+                  <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-code fa-stack-1x icon"></i></span>
+                    <h4><strong>JavaScript</strong></h4>
+                    <p>Whether I'm animating some CSS, implementing server-side solutions with node, or utilizing an MVC-style framework for single-page webapps, Javascript is how the user experience comes to life.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="skill">
+                  <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-mobile fa-stack-1x icon"></i></span>
+                    <h4><strong>Mobile-First Dev</strong></h4>
+                    <p>Let's face it, there's a good chance you're looking at this on your mobile device at this very moment. In today's world, mobile-ready websites are a must in order to reach your clients effectively.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="social">
-                <img class="icon" src="https://raw.github.com/FlackAP/flackap.github.io/source/app/images/email.png">
-                <a href="mailto:Flack.Ap@gmail.com">Gmail: Flack.AP</a>
-            </div>
-            <div class="close alertify-button">Close</div>
+          </div>
         </div>
-           
-        
-
-        <script src="scripts/6b4c6313.vendor.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45793955-1');ga('send','pageview');
-        </script>
-
-        <script src="scripts/f3cacd7b.main.js"></script>
-</body>
+      </div>
+    </aside>
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>Projects</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="portfolio-item"><a href="http://chartspan.com" target="blank"><img src="images/ChartSpan.png" class="img-portfolio img-responsive"></a></div>
+                <h3>ChartSpan</h3>
+                <p>As a front-end developer at ChartSpan, I saw firsthand how hectic the startup life is- and I fell in love with it. ChartSpan is where I got to whet my appetite for Objective-C and object-oriented programming.</p><a href="https://itunes.apple.com/us/app/chartspan/id896040502?ls=1&amp;mt=8">&bull;App Store</a>
+                <hr class="mobile-rule">
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item"><a href="http://theironyard.com" target="blank"><img src="images/TIY.png" class="img-portfolio img-responsive"></a></div>
+                <h3>The Iron Yard</h3>
+                <p>Using Jade, Sass, and the gulp build tool, I was responsible for rebuilding and maintaining The Iron Yard's redesigned website as well as Ghost Shield, the official Iron yard styleguide.</p><a href="http://masondesu.github.io/ghost-shield/">&bull;Ghost Shield</a><a href="http://"></a>
+              </div>
+            </div><a href="https://github.com/FlackAP/" target="blank" class="btn btn-dark">View More On GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside id="testimonials" class="testimonial bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>I dont want to toot my own horn</h2>
+            <h3>(so here's what others are saying)</h3>
+            <div style="margin-top:20px" class="col-md-6">
+              <p style="text-align:left">"I had the pleasure of working with Andy in the development of our consumer mobile product at ChartSpan Medical Technologies. He shined as a Developer and problem solver, with the ability to stand out as an individual performer or member of our Dev Team.<br><br>Andy is infectiously calm during times of stress and pragmatic in his problem solving approach. His knowledge of client and server side development concepts and languages, as well as his ability as a cross platform tester were critical to our success.
+                Andy's competency is matched by his humor and wit...a welcomed trait during the frequent and mundane stretches of laborious development tasks. Andy is a gem and someone who is always welcomed on my team"<br>
+                <h4 style="margin-top:40px ">-Jon-Michial Carter, Co-Founder - ChartSpan Medical Technologies</h4>
+                <hr class="mobile-rule">
+              </p>
+            </div>
+            <div style="margin-top:20px" class="col-md-6">
+              <p style="text-align:left">"Here's a kid who didn't know anything about HTML a short time ago, let alone anything about JavaScript or object oriented programming. The look on his face when I told him I needed him to learn Objective-C was priceless, and one I'll never forget. It went from fear, to excitement, to determination in less than five seconds. <br><br>. . .Andy had a better grasp of object oriented principles and Objective-C after thirty days than I could have ever imagined for a person of his experience. He proved to me that he has an insatiable hunger for learning and a desire to face audacious challenges head on, two traits I find highly desirable in every person I hire. I'd be happy to have Andy on my team any day."
+                <h4 style="margin-top:40px ">-Terry Horner, Data Scientist - Keen IO</h4>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer>
+      <div id="contact" class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h3>Contact Me!</h3>
+            <p>I'm always interested in hearing about new opportunities and connecting with others,<br>so feel free to drop me a line via Email or follow me!</p>
+            <ul class="list-inline">
+              <li><a href="mailto:Flack.AP@gmail.com"><i class="fa fa-envelope fa-fw fa-3x"></i></a></li>
+              <li><a href="http://twitter.com/flackap"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
+              <li><a href="http://github.com/flackap"><i class="fa fa-github fa-fw fa-3x"></i></a></li>
+              <li><a href="http://flackap.tumblr.com"><i class="fa fa-tumblr fa-fw fa-3x"></i></a></li>
+            </ul>
+            <hr class="small">
+            <p style="font-size:12px" class="text-muted">Copyright © Andy Flack 2014</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>$(function(){
+  tumblrFeed("http://FlackAP.tumblr.com/rss/", $(".recent"));
+})
+    </script>
+  </body>
+  <!-- build:js scripts/vendor.js-->
+  <!-- bower:js-->
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- endbower-->
+  <!-- endbuild-->
+  <!-- build:js scripts/main.js-->
+  <script src="/scripts/main.js"></script>
+  <!-- endbuild-->
 </html>
