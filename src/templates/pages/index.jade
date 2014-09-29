@@ -39,9 +39,6 @@ block content
           .col-md-9
             p(style="margin:0 auto; max-width:900px") 
               |My name is Andy Flack, and I'm a front end web developer. My story is a winding tale of seeking fortune in studies of history, art, and sustainable coffee. You can read more about that on my <a href="/resume">resume</a> if you'd like, but the most important thing you should know about me is that I love working with people to solve problems, and that's why the world of programming is my place. I've never found a more welcoming community of people tenacious enough to tackle problems that will eventually effect almost every person on the planet.
-              br
-              br
-              | cool
           .col-md-3
             img.about-photo(src="/images/flackap.jpg")
 
@@ -61,14 +58,14 @@ block content
                     strong HTML5/CSS3
                   p Using clean markup and stylesheets, I make it a point to write legible code that is easy to read and understand even if someone else comes in and touches my existing work.
             .col-md-4.col-sm-6
-              .skill
+              .skill2
                 .service-item
                   span.fa-stack.fa-4x
                     i.fa.fa-circle.fa-stack-2x
                     i.fa.fa-code.fa-stack-1x.icon
                   h4
                     strong JavaScript
-                  p Whether I'm animating some CSS, implementing server-side solutions with node, or utilizing an MVC-style framework, Javascript is how the user experience comes to life.
+                  p Whether I'm animating some CSS, implementing server-side solutions with node, or utilizing an MVC-style framework for single-page webapps, Javascript is how the user experience comes to life.
             .col-md-4.col-sm-6
               .skill
                 .service-item
@@ -77,33 +74,33 @@ block content
                     i.fa.fa-mobile.fa-stack-1x.icon
                   h4
                     strong Mobile-First Dev
-                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  p Let's face it, there's a good chance you're looking at this on your mobile device at this very moment. In today's world, mobile-ready websites are a must in order to reach your clients effectively.
 
   section#portfolio.portfolio
     .container
       .row
         .col-lg-10.col-lg-offset-1.text-center
-          h2 Great Stock Photos
+          h2 Projects
           hr.small
           .row
             .col-md-6
               .portfolio-item
-                a(href='#')
-                  img.img-portfolio.img-responsive(src='images/portfolio-1.jpg')
+                a(href='http://chartspan.com' target="blank")
+                  img.img-portfolio.img-responsive(src='images/ChartSpan.png')
+              h3 ChartSpan
+              p As a front-end developer at ChartSpan, I saw firsthand how hectic the startup life is- and I fell in love with it. ChartSpan is where I got to whet my appetite for Objective-C and object-oriented programming.
+              a(href="https://itunes.apple.com/us/app/chartspan/id896040502?ls=1&mt=8") &bull;App Store
+              hr.mobile-rule
             .col-md-6
               .portfolio-item
-                a(href='#')
-                  img.img-portfolio.img-responsive(src='images/portfolio-2.jpg')
-            .col-md-6
-              .portfolio-item
-                a(href='#')
-                  img.img-portfolio.img-responsive(src='images/portfolio-3.jpg')
-            .col-md-6
-              .portfolio-item
-                a(href='#')
-                  img.img-portfolio.img-responsive(src='images/portfolio-4.jpg')
+                a(href='http://theironyard.com' target="blank")
+                  img.img-portfolio.img-responsive(src='images/TIY.png')
+              h3 The Iron Yard
+              p Using Jade, Sass, and the gulp build tool, I was responsible for rebuilding and maintaining The Iron Yard's redesigned website as well as Ghost Shield, the official Iron yard styleguide.
+              a(href="http://masondesu.github.io/ghost-shield/") &bull;Ghost Shield
+              a(href="http://")
 
-          a.btn.btn-dark(href='#') View More Items
+          a.btn.btn-dark(href='https://github.com/FlackAP/' target="blank") View More On GitHub
 
   aside#testimonials.testimonial.bg-primary
     .container
@@ -117,9 +114,7 @@ block content
               |"I had the pleasure of working with Andy in the development of our consumer mobile product at ChartSpan Medical Technologies. He shined as a Developer and problem solver, with the ability to stand out as an individual performer or member of our Dev Team.
               br
               br
-              |Andy is infectiously calm during times of stress and pragmatic in his problem solving approach. His knowledge of client and server side development concepts and languages, as well as his ability as a cross platform tester were critical to our success. 
-              br
-              br 
+              |Andy is infectiously calm during times of stress and pragmatic in his problem solving approach. His knowledge of client and server side development concepts and languages, as well as his ability as a cross platform tester were critical to our success.
               |Andy's competency is matched by his humor and wit...a welcomed trait during the frequent and mundane stretches of laborious development tasks. Andy is a gem and someone who is always welcomed on my team"
               br
               h4(style="margin-top:40px ") -Jon-Michial Carter, Co-Founder - ChartSpan Medical Technologies
@@ -135,20 +130,25 @@ block content
     .container#contact
       .row
         .col-lg-10.col-lg-offset-1.text-center
+          h3 Contact Me!
+          p 
+            |I'm always interested in hearing about new opportunities and connecting with others,
+            br
+            |so feel free to drop me a line via Email or follow me!
           ul.list-inline
             li
-              a(href='#')
+              a(href='mailto:Flack.AP@gmail.com')
                 i.fa.fa-envelope.fa-fw.fa-3x
             li
-              a(href='#')
+              a(href='http://twitter.com/flackap')
                 i.fa.fa-twitter.fa-fw.fa-3x
             li
-              a(href='#')
+              a(href='http://github.com/flackap')
                 i.fa.fa-github.fa-fw.fa-3x
             li
-              a(href='#')
+              a(href='http://flackap.tumblr.com')
                 i.fa.fa-tumblr.fa-fw.fa-3x
           hr.small
-          p.text-muted Copyright © Andy Flack 2014
+          p.text-muted(style="font-size:12px") Copyright © Andy Flack 2014
 
   +blogFeed('FlackAP')

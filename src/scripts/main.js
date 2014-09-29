@@ -27,6 +27,8 @@ $(function() {
   });
 });
 
+// Parallax stuff hell yeah hell yeah
+
 (function($) {
 
   /**
@@ -59,9 +61,9 @@ $(function() {
 
 var win = $(window);
 
-var allMods = $(".about-photo");
+var aboutPhoto = $(".about-photo");
 
-allMods.each(function(i, el) {
+aboutPhoto.each(function(i, el) {
   var el = $(el);
   if (el.visible(true)) {
     el.addClass("already-visible"); 
@@ -70,10 +72,50 @@ allMods.each(function(i, el) {
 
 win.scroll(function(event) {
   
-  allMods.each(function(i, el) {
+  aboutPhoto.each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
       el.addClass("come-in"); 
+    } 
+  });
+  
+});
+
+var oddSkills = $(".skill");
+
+oddSkills.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
+  
+  oddSkills.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("skill-active"); 
+    } 
+  });
+  
+});
+
+var evenSkills = $(".skill2");
+
+evenSkills.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
+  
+  evenSkills.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("skill2-active"); 
     } 
   });
   
