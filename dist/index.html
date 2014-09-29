@@ -4,19 +4,133 @@
     <html lang="en">
       <head>
         <title>FlackAP</title>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="/stylesheets/main.css">
-        <link href="../fonts/ss-social.css" rel="stylesheet">
-        <link href="../fonts/ss-standard.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
       </head>
     </html>
   </head>
-  <body>
+  <body><a id="menu-open" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-list-alt"></i></a>
+    <nav id="sidebar">
+      <ul class="sidebar-nav"><a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand"><a href="#top">FlackAP</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="top" class="header">
+      <div class="text-vertical-center">
+        <h1><img src="/images/bonsai.png">Flack AP</h1>
+        <div id="subheadline">
+          <h3><em>proper noun</em> \ˈflak-'ā-pē \ :<br>Andy Flack, a front-end web developer with a passion for life-long education, sustainable coffee, and professional wrestling </h3>
+        </div><br><a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
+    </header>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Here's some cool stuff about me and my stupid life!!!!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services bg-primary">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2>WHAT I DO</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cloud fa-stack-1x icon"></i></span>
+                  <h4><strong>Service Name</strong></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#" class="btn btn-light">Learn More</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-compass fa-stack-1x icon"></i></span>
+                  <h4><strong>Service Name</strong></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#" class="btn btn-light">Learn More</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flask fa-stack-1x icon"></i></span>
+                  <h4><strong>Service Name</strong></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#" class="btn btn-light">Learn More</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-shield fa-stack-1x icon"></i></span>
+                  <h4><strong>Service Name</strong></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#" class="btn btn-light">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside class="callout">
+      <div class="text-vertical-center">
+        <h1>Vertically Centered Text</h1>
+      </div>
+    </aside>
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>Great Stock Photos</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="portfolio-item"><a href="#"><img src="images/portfolio-1.jpg" class="img-portfolio img-responsive"></a></div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item"><a href="#"><img src="images/portfolio-2.jpg" class="img-portfolio img-responsive"></a></div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item"><a href="#"><img src="images/portfolio-3.jpg" class="img-portfolio img-responsive"></a></div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item"><a href="#"><img src="images/portfolio-4.jpg" class="img-portfolio img-responsive"></a></div>
+              </div>
+            </div><a href="#" class="btn btn-dark">View More Items</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside class="call-to-action bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3>Click these buttons</h3><a href="#" class="btn btn-lg btn-light">Click Me!</a><a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-envelope fa-fw fa-3x"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
+              <li><a href="#"><i class="fa fa-github fa-fw fa-3x"></i></a></li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright © Andy Flack 2014</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <!-- build:js scripts/vendor.js-->
   <!-- bower:js-->
   <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- endbower-->
   <!-- endbuild-->
   <!-- build:js scripts/main.js-->
