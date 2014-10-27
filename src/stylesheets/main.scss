@@ -311,8 +311,10 @@ hr.small {
 
 .img-portfolio {
   width: 420px;
-  height: 260px;
+  height: 239px;
   margin: 0 auto;
+  border: 2px solid rgba(95, 111, 86, 0.37);
+  border-radius: 14px;
   &:hover {
     opacity: 0.8;
   }
