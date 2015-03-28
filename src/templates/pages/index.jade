@@ -38,7 +38,11 @@ block content
         .col-lg-12
           .col-md-9
             p(style="margin:0 auto; max-width:900px") 
-              |My name is Andy Flack, and I'm a front end web developer. My story is a winding tale of seeking fortune in studies of history, art, and sustainable coffee. You can read more about that on my <a href="/resume">resume</a> if you'd like, but the most important thing you should know about me is that I love working with people to solve problems, and that's why the world of programming is my place. I've never found a more welcoming community of people tenacious enough to tackle problems that will eventually effect almost every person on the planet.
+              | My name is Andy Flack, and I'm a front end engineer. In a previous life, I was your (mostly) friendly neighborhood barista. 
+              | Eventually finding myself unsatisfied with the daily grind of grinding coffee, I began to explore the world of web development.
+              | I put everything in my life on hold for three months in order to pursue an education in front end development at <a href="http://theironyard.com">The Iron Yard Academy</a> 
+              | and never looked back.  <br>
+              | 
           .col-md-3
             img.about-photo(src="/images/flackap.jpg")
 
@@ -129,10 +133,15 @@ block content
               br
               |. . .Andy had a better grasp of object oriented principles and Objective-C after thirty days than I could have ever imagined for a person of his experience. He proved to me that he has an insatiable hunger for learning and a desire to face audacious challenges head on, two traits I find highly desirable in every person I hire. I'd be happy to have Andy on my team any day."
               h4(style="margin-top:40px; text-align:left ") -Terry Horner, Data Scientist - Keen IO
+
+  section.blog
+    h2.text-center Posts From My Blog
+    ul.recent
   footer
     .container#contact
       .row
         .col-lg-10.col-lg-offset-1.text-center
+
           h3 Contact Me!
           p 
             |I'm always interested in hearing about new opportunities and connecting with others,
@@ -154,4 +163,4 @@ block content
           hr.small
           p.text-muted(style="font-size:12px") Copyright © Andy Flack 2014
 
-  +blogFeed('FlackAP')
+  +blogFeed('flackap')

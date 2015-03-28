@@ -123,6 +123,7 @@ win.scroll(function(event) {
 
 // Blog Feed
 function tumblrFeed(url, $el) {
+  console.log('okay')
    $.ajax({
      url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(url),
      dataType: 'json',
@@ -130,10 +131,11 @@ function tumblrFeed(url, $el) {
        
        var entries = data.responseData.feed.entries;
        var fragment = '';
-       
+       console.log(entries);
        if(entries) {
           
           for(var i=0;i < 4; i++) {
+            
             if (entries[i]) {
               fragment += '<li><a href="'+entries[i].link+'">'+entries[i].title+'</a></li>';
             }
@@ -143,4 +145,5 @@ function tumblrFeed(url, $el) {
          }
        }
    });
+
 }

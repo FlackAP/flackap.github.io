@@ -332,6 +332,22 @@ hr.small {
   }
 }
 
+/* Blog */
+.blog {
+
+  .recent {
+    list-style-type: none;
+
+    li {
+      width: 20%;
+      margin:1%;
+      padding:2%;
+      text-align:center;
+      display: inline-block;
+    }
+  }
+} 
+
 /* Footer */
 
 footer {
