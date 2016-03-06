@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Hind:500,400,700,300);
+@import "variables";
 
 html {
   width: 100%;
@@ -27,6 +28,15 @@ a:hover {
   color:#08855A;
 }
 
+i {
+  color:$dark-blue;
+
+  &:hover {
+    color:$lt-blue;
+  }
+}
+
+
 .text-vertical-center {
   display: table-cell;
   text-align: center;
@@ -52,10 +62,14 @@ a:hover {
 .btn-dark {
   border-radius: 0;
   color: #fff;
-  background-color: #08855A;
+  background-color: $forest;
   &:hover, &:focus, &:active {
     color: #fff;
-    background-color: #07754F;
+    background-color: #10992E;
+  }
+
+  &.rounded {
+    border-radius: 2px;
   }
 }
 
@@ -75,6 +89,16 @@ hr.small {
   max-width: 100px;
 }
 
+/* Custom Icon Styles */
+
+.fa-circle, .fa-list-alt, .fa-times {
+  color:$grey;
+} 
+
+
+
+
+
 /* Side Menu */
 
 #sidebar {
@@ -85,7 +109,7 @@ hr.small {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #222;
+  background: #16202C;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -156,7 +180,7 @@ hr.small {
 // BOOTSTRAP OVERRIDES
 
 .bg-primary {
-  background-color:#33B281;
+  background-color:$forest;
 }
 
 /* Header */
@@ -184,6 +208,10 @@ hr.small {
 }
 
 /* About */
+
+.about {
+  background: $grey;
+}
 
 .about, .services {
   padding: 50px 0;
@@ -239,8 +267,8 @@ hr.small {
     background: #07754F;
   }
 
-  .skill {
-    background-color: rgba(94, 135, 128, 0.49);
+  .skill, .skill2 {
+    background-color: rgba(94, 135, 128, 0.88);
     padding: 9px 0px;
     border-radius: 4px;
     float: left;
@@ -249,15 +277,6 @@ hr.small {
     margin-bottom: 4%;
   }
 
-    .skill2 {
-    background-color: rgba(94, 135, 128, 0.49);
-    padding: 9px 0px;
-    border-radius: 4px;
-    float: left;
-    padding: 20px;
-    margin-right: 4%;
-    margin-bottom: 4%;
-  }
 }
 
 .skill-active {
@@ -274,7 +293,7 @@ hr.small {
 
 .portfolio {
   padding: 50px 0;
-  background: url('/images/noise.png');
+  background: $lt-blue;
 
   hr {
     border-top: 1px solid #282828 
@@ -288,6 +307,9 @@ hr.small {
       display:none;
     }
   }
+  a {
+    color:$dark-blue;
+  }
   ul {
     padding-left:0;
   }
@@ -296,17 +318,20 @@ hr.small {
     display:inline;
     list-style-type:none;
     padding-right: 10px;
+    a {
+      font-weight:700
+    }
   }
 
   .btn {
     margin-top:30px;
+    color:white;
   }
 }
 
 .portfolio-item {
   margin-bottom: 10px;
   border-radius:2px;
-  height:280px;
 }
 
 .img-portfolio {
@@ -324,6 +349,8 @@ hr.small {
 
 .testimonial {
   padding: 50px 0;
+  background: $dark-blue;
+  
 }
 
 .mobile-rule {
@@ -352,4 +379,5 @@ hr.small {
 
 footer {
   padding: 45px 0;
+  background: $grey;
 }
