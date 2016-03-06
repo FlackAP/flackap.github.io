@@ -7,50 +7,76 @@
   <!--build:css(.tmp) styles/resume.css 
   -->
   <link rel="stylesheet" href="../bower_components/github-markdown-css/github-markdown.css"/>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
   <style>
     .markdown-body {
         min-width: 200px;
-        max-width: 790px;
+        max-width: 1200px;
         overflow: visible;
         margin: 0 auto;
         padding: 30px;
     }
+    .row h3 {
+      margin-top:0px !important
+    }
+    h1 {
+      font-size:2.14em !important;
+      margin-top:1px !important;
+    }
+    h3 {
+      margin-bottom:2px !important
+      font-size:1.9em !important;
+    }
+    h4 {
+      margin-top:6px !important
+    }
   </style>
   <body class="markdown-body">
-    <h1><span class="name">Andy Flack</span><br/><br/>(864)918-7903 <span></span>| flack.ap@gmail.com</h1>
+    <h1><span class="name">Andy Flack</span><br/>(864)918-7903 <span></span>| flack.ap@gmail.com</h1>
     <h2>Skills</h2>
-    <h3>Markup</h3>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>Markdown</li>
-      <li>SASS</li>
-    </ul>
-    <h3>JavaScript</h3>
-    <ul>
-      <li>Backbone.js</li>
-      <li>JQuery</li>
-      <li>creating/using jQuery plugins</li>
-      <li>Underscore.js</li>
-    </ul>
-    <h3>Other tools/skills</h3>
-    <ul>
-      <li>Parse</li>
-      <li>Yeoman, Grunt, Bower</li>
-      <li>HTML5 Boilerplate</li>
-      <li>jQuery Boilerplate</li>
-      <li>Jasmine</li>
-      <li>iOS/Objective-C</li>
-    </ul>
-    <h2>Education</h2>
-    <h3>The Iron Yard Academy- Greenville, SC<br/>Front End Engineering, October 2013</h3>
-    <p>In three months time, I was able to go from virtually no understanding of web development to writing functional webapps that utilized Backbone.js, Parse.js, and API calls. For the first time in many years, I felt as if my thirst for knowledge was finally being satisfied; I knew that programming was my way of fulfilling the potential I've always seen in myself.</p>
-    <p>The program exposed me to a field that I've come to love for the culture and the opportunity to complete challenging and meaningful projects. I completed several projects in the three-month program, and after graduation I have had the opportunity to work alongside members of the Iron Yard family. The biggest lesson I have learned in my time at the Iron Yard Academy is that there is always more to learn and one's skills as a developer can constantly improve.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Markup</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Markdown</li>
+            <li>SASS</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>JavaScript</h3>
+          <ul>
+            <li>Backbone.js</li>
+            <li>JQuery</li>
+            <li>creating/using jQuery plugins</li>
+            <li>Underscore.js</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Other tools/skills</h3>
+          <ul>
+            <li>ExpressionEngine</li>
+            <li>Yeoman, Gulp/Grunt, Bower</li>
+            <li>Jasmine</li>
+            <li>iOS/Objective-C</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <h2>Development</h2>
+    <h3>Dubose Web Group</h3><strong>Front End Engineer, December 2015- March 2016 </strong>
+    <p>At Dubose Web, I was tasked with overseeing the front-end development of new websites. From meeting with clients to working with the designers, I was able to take ownership of every project that came through the door.<br/><br/>My experiences at Dubose Web allowed me to experience a leadership position while learning valuable skills from other team members. This was also great exposure to working with a CMS as all projects were built using ExpressionEngine. </p>
+    <h3>TheIronYard.com/Ghost Shield</h3><strong><a href="https://TheIronyard.com">http://theironyard.com <br></a></strong><strong>Sole Maintainer/Project Lead, April 2014- January 2015 </strong>
+    <p>I was approached by The Iron Yard when a major restructuring of their website was needed. I was charged with rebuilding the website using jade templates, scss, and the gulp build system. I was also in charge of building the styleguide for The Iron Yard, known as Ghost Shield.<br/><br/>This was an invaluable experience as I was able to work alongside partners, students, and teachers at the Iron Yard as well as open source contributers to the project. Using the latest and greatest in front end development technologies, I was able to oversee an ambitious and successful restructuring.         </p>
     <h3>ChartSpan Medical Technologies</h3><strong>Front-End/iOS Developer, January 2014-May 2014 </strong>
     <p>Fresh from the Iron Yard Academy, I was offered a position at ChartSpan as a junior front-end developer. I was given the opportunity to build an app using jQuery mobile and Trigger.io and to continue my learning under the mentorship of Terry Horner. It was at ChartSpan that I learned how to work with a small, three-developer team by tackling whatever problems we faced while establishing accountability and taking pride in the good work that we were doing.<br/><br/>After two months of building out a behavior-driven testing system for the app and researching/testing multiple MVC frameworks that we planned to put into place, it became clear that we needed to change direction and build the app for native platforms. I spent the next month and a half learning how to develop in Objective-C using Xcode as well as creating the foundation for the app by laying out storyboards, connecting the app to Localytics for marketing analytics, and building out the password retrieval functionality.</p>
-    <h3>TheIronYard.com/Ghost Shield</h3><strong><a href="https://TheIronyard.com">http://theironyard.com <br></a></strong><strong>Sole Maintainer/Project Lead, April 2014- Ongoing </strong>
-    <p>I was approached by The Iron Yard when a major restructuring of their website was needed. I was charged with rebuilding the website using jade templates, scss, and the gulp build system. I was also in charge of building the styleguide for The Iron Yard, known as Ghost Shield.<br/><br/>This was an invaluable experience as I was able to work alongside partners, students, and teachers at the Iron Yard as well as open source contributers to the project. Using the latest and greatest in front end development technologies, I was able to oversee an incredibly ambitious restructuring that was so succesful that I have been asked to continue maintaining the website indefinitely. </p>
+    <h2>Education</h2>
+    <h3>The Iron Yard Academy- Greenville, SC</h3>
+    <h4>Front End Engineering, October 2013</h4>
+    <p>In three months time, I was able to go from virtually no understanding of web development to writing functional webapps that utilized Backbone.js, Parse.js, and API calls. For the first time in many years, I felt as if my thirst for knowledge was finally being satisfied; I knew that programming was my way of fulfilling the potential I've always seen in myself.</p>
+    <p>The program exposed me to a field that I've come to love for the culture and the opportunity to complete challenging and meaningful projects. I completed several projects in the three-month program, and after graduation I have had the opportunity to work alongside members of the Iron Yard family. The biggest lesson I have learned in my time at the Iron Yard Academy is that there is always more to learn and one's skills as a developer can constantly improve.    </p>
     <h2>Pre-programming</h2>
     <h3>Education</h3><strong>Greenville Technical College - Greenville, SC Associates in Arts, May 2010</strong>
     <p>Through studying the arts, I learned that there are a million ways of looking at life and all of the problems we face on a day-to-day basis. I also learned that there's something philosophers call "the human experience" that brings us all together at the end of the day, and art is a way of understanding and relating that experience.</p>
@@ -64,6 +90,6 @@
     <h3>Jon-Michial Carter</h3><strong>CEO, ChartSpan Medical Technologies</strong>
     <p>Phone: 713-240-2454<br/>Email: JonMichial@ChartSpan.com</p>
     <h3>Eric Dodds</h3><strong>Co-Founder/Program Manager, The Iron Yard</strong>
-    <p>Email: Eric@TheIronYard.com</p>
+    <p>Phone: 864-270-3757<br/>Email: Eric@TheIronYard.com</p>
   </body>
 </head>
