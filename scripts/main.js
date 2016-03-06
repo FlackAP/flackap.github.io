@@ -147,3 +147,13 @@ function tumblrFeed(url, $el) {
    });
 
 }
+
+  $(document).ready(function() {
+    $('.fancybox').fancybox({
+      helpers: {
+        overlay: {
+          locked: false
+        }
+      }
+    });
+  });
