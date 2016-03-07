@@ -6,7 +6,8 @@
     "jquery": "~2.1.1",
     "github-markdown-css": "~1.1.1",
     "bootstrap": "~3.2.0",
-    "lightbox2": "^2.8.2"
+    "lightbox2": "^2.8.2",
+    "fancyBox": "*"
   },
   "devDependencies": {}
 }

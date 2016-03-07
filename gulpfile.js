@@ -1,6 +1,8 @@
 'use strict';
 
 // Hey!
+// Built by Mason Stewart- http://github.io/masondesu
+// Hacked to hell and back by Andy Flack- http://github.io/FlackAP
 
 //                           _               
 //    ________  ____ ___  __(_)_______  _____
