@@ -91,8 +91,20 @@ hr.small {
 .fa-circle, .fa-list-alt, .fa-times {
   color: #f0eceb; }
 
+/* line 104, stdin */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-shadow: -1px 1px 1px #326132; }
+
+/* line 112, stdin */
+.fa-circle.fa-stack-2x {
+  text-shadow: -2px 2px 6px rgba(39, 80, 73, 0.88); }
+
 /* Side Menu */
-/* line 110, stdin */
+/* line 120, stdin */
 #sidebar {
   z-index: 1000;
   position: fixed;
@@ -104,7 +116,7 @@ hr.small {
   background: #133E1C;
   transition: all 0.4s ease 0s; }
 
-/* line 126, stdin */
+/* line 136, stdin */
 .sidebar-nav {
   position: absolute;
   top: 0;
@@ -112,59 +124,59 @@ hr.small {
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 133, stdin */
+  /* line 143, stdin */
   .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px; }
-    /* line 136, stdin */
+    /* line 146, stdin */
     .sidebar-nav li a {
       display: block;
       text-decoration: none;
       color: #999; }
-      /* line 140, stdin */
+      /* line 150, stdin */
       .sidebar-nav li a:hover {
         text-decoration: none;
         color: #fff;
         background: rgba(255, 255, 255, 0.2); }
-      /* line 145, stdin */
+      /* line 155, stdin */
       .sidebar-nav li a:active, .sidebar-nav li a:focus {
         text-decoration: none; }
-  /* line 150, stdin */
+  /* line 160, stdin */
   .sidebar-nav > .sidebar-brand {
     height: 55px;
     font-size: 18px;
     line-height: 55px; }
-    /* line 154, stdin */
+    /* line 164, stdin */
     .sidebar-nav > .sidebar-brand a {
       color: #999; }
-      /* line 156, stdin */
+      /* line 166, stdin */
       .sidebar-nav > .sidebar-brand a:hover {
         color: #fff;
         background: none; }
 
-/* line 164, stdin */
+/* line 174, stdin */
 #menu-open {
   z-index: 1;
   position: fixed;
   top: -5px;
   left: 0; }
 
-/* line 171, stdin */
+/* line 181, stdin */
 #sidebar.active {
   left: 250px;
   width: 250px;
   transition: all 0.4s ease 0s; }
 
-/* line 181, stdin */
+/* line 191, stdin */
 .toggle {
   margin: 5px 5px 0 0; }
 
-/* line 188, stdin */
+/* line 198, stdin */
 .bg-primary {
   background-color: #0E7F26; }
 
 /* Header */
-/* line 194, stdin */
+/* line 204, stdin */
 .header {
   display: table;
   position: relative;
@@ -173,25 +185,25 @@ hr.small {
   background: url(../images/mountains.jpg) no-repeat center center scroll;
   background-size: cover;
   -o-background-size: cover; }
-  /* line 205, stdin */
+  /* line 215, stdin */
   .header #subheadline {
     margin: 0 auto;
     max-width: 700px; }
     @media (max-width: 740px) {
-      /* line 205, stdin */
+      /* line 215, stdin */
       .header #subheadline {
         display: none; } }
 
 /* About */
-/* line 218, stdin */
+/* line 228, stdin */
 .about {
   background: #f0eceb; }
 
-/* line 222, stdin */
+/* line 232, stdin */
 .about, .services {
   padding: 50px 0; }
 
-/* line 226, stdin */
+/* line 236, stdin */
 .about-photo {
   width: 100%;
   border-radius: 200px;
@@ -201,22 +213,22 @@ hr.small {
   padding: 20px;
   margin-right: 4%;
   margin-bottom: 4%; }
-  /* line 235, stdin */
+  /* line 245, stdin */
   .about-photo:nth-child(even) {
     margin-right: 0; }
   @media (max-width: 991px) {
-    /* line 226, stdin */
+    /* line 236, stdin */
     .about-photo {
       display: none; } }
 
-/* line 244, stdin */
+/* line 254, stdin */
 .come-in {
   -webkit-transform: translateX(200px);
   transform: translateX(200px);
   -webkit-animation: come-in 2s ease forwards;
   animation: come-in 2s ease forwards; }
 
-/* line 249, stdin */
+/* line 259, stdin */
 .already-visible {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -234,7 +246,7 @@ hr.small {
     transform: translateX(0); } }
 
 /* Skills/ "Tools of the Trade" */
-/* line 260, stdin */
+/* line 270, stdin */
 .skills {
   display: table;
   width: 100%;
@@ -245,10 +257,10 @@ hr.small {
   background-size: cover;
   -o-background-size: cover; }
   @media (max-width: 768px) {
-    /* line 260, stdin */
+    /* line 270, stdin */
     .skills {
       background: #07754F; } }
-  /* line 276, stdin */
+  /* line 286, stdin */
   .skills .skill, .skills .skill2 {
     background-color: rgba(94, 135, 128, 0.88);
     padding: 9px 0px;
@@ -259,14 +271,14 @@ hr.small {
     margin-bottom: 4%;
     box-shadow: -2px 1px 5px 1px rgba(0, 0, 0, 0.32); }
 
-/* line 289, stdin */
+/* line 299, stdin */
 .skill-active {
   -webkit-transform: translateY(130px);
   transform: translateY(130px);
   -webkit-animation: come-in 1.20s ease forwards;
   animation: come-in 1.20s ease forwards; }
 
-/* line 294, stdin */
+/* line 304, stdin */
 .skill2-active {
   -webkit-transform: translateY(160px);
   transform: translateY(160px);
@@ -274,72 +286,80 @@ hr.small {
   animation: come-in 0.6s ease forwards; }
 
 /* Portfolio */
-/* line 301, stdin */
+/* line 311, stdin */
 .portfolio {
   padding: 50px 0;
   background: #f0eceb; }
-  /* line 305, stdin */
+  /* line 315, stdin */
   .portfolio hr {
     border-top: 1px solid #282828; }
-  /* line 309, stdin */
+  /* line 319, stdin */
   .portfolio p {
     margin-bottom: 20px;
-    height: 74px; }
+    height: 74px;
+    text-align: left; }
     @media (max-width: 990px) {
-      /* line 309, stdin */
+      /* line 319, stdin */
       .portfolio p {
         display: none; } }
-  /* line 317, stdin */
+  /* line 328, stdin */
   .portfolio a {
     color: #243649; }
-  /* line 320, stdin */
+  /* line 331, stdin */
   .portfolio ul {
     padding-left: 0; }
-  /* line 324, stdin */
+  /* line 335, stdin */
   .portfolio li {
     display: inline;
     list-style-type: none;
     padding-right: 10px; }
-    /* line 328, stdin */
+    /* line 339, stdin */
     .portfolio li a {
       font-weight: 700; }
-  /* line 333, stdin */
+  /* line 344, stdin */
   .portfolio .btn {
     margin-top: 30px;
     color: white; }
 
-/* line 339, stdin */
+/* line 350, stdin */
 .portfolio-item {
   margin-bottom: 10px;
   border-radius: 2px; }
 
-/* line 344, stdin */
+/* line 355, stdin */
 .img-portfolio {
   width: 420px;
   height: 239px;
   margin: 0 auto;
-  border: 2px solid rgba(95, 111, 86, 0.37);
-  border-radius: 14px; }
-  /* line 350, stdin */
+  border-radius: 7px;
+  box-shadow: -1px 1px 6px 0px rgba(153, 153, 153, 0.5);
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%); }
+  /* line 365, stdin */
   .img-portfolio:hover {
-    opacity: 0.8; }
+    opacity: 0.8;
+    box-shadow: -4px 3px 8px 0px rgba(153, 153, 153, 0.5);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); }
 
 /* testimonial */
-/* line 357, stdin */
+/* line 376, stdin */
 .testimonial {
   padding: 50px 0;
   background: #243649; }
 
 @media (min-width: 992px) {
-  /* line 363, stdin */
+  /* line 382, stdin */
   .mobile-rule {
     display: none; } }
 
 /* Blog */
-/* line 372, stdin */
+/* line 391, stdin */
 .blog .recent {
   list-style-type: none; }
-  /* line 375, stdin */
+  /* line 394, stdin */
   .blog .recent li {
     width: 20%;
     margin: 1%;
@@ -348,22 +368,22 @@ hr.small {
     display: inline-block; }
 
 /* Footer */
-/* line 387, stdin */
+/* line 406, stdin */
 footer {
   padding: 45px 0;
   background: #f0eceb; }
 
 @media print {
-  /* line 393, stdin */
+  /* line 412, stdin */
   h1 {
     font-size: 28px; }
-  /* line 396, stdin */
+  /* line 415, stdin */
   h2 {
     font-size: 25px; }
-  /* line 399, stdin */
+  /* line 418, stdin */
   h3 {
     font-size: 20px; }
-  /* line 402, stdin */
+  /* line 421, stdin */
   p, li, a {
     font-size: 16px; } }
 
