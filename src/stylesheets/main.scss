@@ -352,21 +352,19 @@ hr.small {
   border-radius:2px;
 }
 
+
+
 .img-portfolio {
   width: 420px;
   height: 239px;
   margin: 0 auto;
-
+  opacity: 0.8;
     border-radius: 7px;
-    box-shadow: -1px 1px 6px 0px rgba(153, 153, 153, 0.5);
-  filter: grayscale(60%);
-  -webkit-filter: grayscale(60%);      
+    box-shadow: -1px 1px 6px 0px rgba(153, 153, 153, 0.5);  
 
   &:hover {
-    opacity: 0.8;
+    opacity: 1;
     box-shadow: -4px 3px 8px 0px rgba(153, 153, 153, 0.5);
-  filter: grayscale(0%);  
-  -webkit-filter: grayscale(0%);  
 
   }
 }
