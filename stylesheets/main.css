@@ -68,30 +68,31 @@ i {
     background-color: #10992E; }
   /* line 76, stdin */
   .btn-dark.rounded {
-    border-radius: 2px; }
+    border-radius: 2px;
+    box-shadow: 0px 1px 4px 0px #063806; }
 
-/* line 81, stdin */
+/* line 82, stdin */
 .btn-light {
   border-radius: 0;
   color: #333;
   background-color: white; }
-  /* line 85, stdin */
+  /* line 86, stdin */
   .btn-light:hover, .btn-light:focus, .btn-light:active {
     color: #333;
     background-color: rgba(255, 255, 255, 0.8); }
 
 /* Custom Horizontal Rule */
-/* line 93, stdin */
+/* line 94, stdin */
 hr.small {
   max-width: 100px; }
 
 /* Custom Icon Styles */
-/* line 99, stdin */
+/* line 100, stdin */
 .fa-circle, .fa-list-alt, .fa-times {
   color: #f0eceb; }
 
 /* Side Menu */
-/* line 109, stdin */
+/* line 110, stdin */
 #sidebar {
   z-index: 1000;
   position: fixed;
@@ -100,10 +101,10 @@ hr.small {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #16202C;
+  background: #133E1C;
   transition: all 0.4s ease 0s; }
 
-/* line 125, stdin */
+/* line 126, stdin */
 .sidebar-nav {
   position: absolute;
   top: 0;
@@ -111,59 +112,59 @@ hr.small {
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 132, stdin */
+  /* line 133, stdin */
   .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px; }
-    /* line 135, stdin */
+    /* line 136, stdin */
     .sidebar-nav li a {
       display: block;
       text-decoration: none;
       color: #999; }
-      /* line 139, stdin */
+      /* line 140, stdin */
       .sidebar-nav li a:hover {
         text-decoration: none;
         color: #fff;
         background: rgba(255, 255, 255, 0.2); }
-      /* line 144, stdin */
+      /* line 145, stdin */
       .sidebar-nav li a:active, .sidebar-nav li a:focus {
         text-decoration: none; }
-  /* line 149, stdin */
+  /* line 150, stdin */
   .sidebar-nav > .sidebar-brand {
     height: 55px;
     font-size: 18px;
     line-height: 55px; }
-    /* line 153, stdin */
+    /* line 154, stdin */
     .sidebar-nav > .sidebar-brand a {
       color: #999; }
-      /* line 155, stdin */
+      /* line 156, stdin */
       .sidebar-nav > .sidebar-brand a:hover {
         color: #fff;
         background: none; }
 
-/* line 163, stdin */
+/* line 164, stdin */
 #menu-open {
   z-index: 1;
   position: fixed;
   top: -5px;
   left: 0; }
 
-/* line 170, stdin */
+/* line 171, stdin */
 #sidebar.active {
   left: 250px;
   width: 250px;
   transition: all 0.4s ease 0s; }
 
-/* line 180, stdin */
+/* line 181, stdin */
 .toggle {
   margin: 5px 5px 0 0; }
 
-/* line 187, stdin */
+/* line 188, stdin */
 .bg-primary {
   background-color: #0E7F26; }
 
 /* Header */
-/* line 193, stdin */
+/* line 194, stdin */
 .header {
   display: table;
   position: relative;
@@ -172,25 +173,25 @@ hr.small {
   background: url(../images/mountains.jpg) no-repeat center center scroll;
   background-size: cover;
   -o-background-size: cover; }
-  /* line 204, stdin */
+  /* line 205, stdin */
   .header #subheadline {
     margin: 0 auto;
     max-width: 700px; }
     @media (max-width: 740px) {
-      /* line 204, stdin */
+      /* line 205, stdin */
       .header #subheadline {
         display: none; } }
 
 /* About */
-/* line 217, stdin */
+/* line 218, stdin */
 .about {
   background: #f0eceb; }
 
-/* line 221, stdin */
+/* line 222, stdin */
 .about, .services {
   padding: 50px 0; }
 
-/* line 225, stdin */
+/* line 226, stdin */
 .about-photo {
   width: 100%;
   border-radius: 200px;
@@ -200,22 +201,22 @@ hr.small {
   padding: 20px;
   margin-right: 4%;
   margin-bottom: 4%; }
-  /* line 234, stdin */
+  /* line 235, stdin */
   .about-photo:nth-child(even) {
     margin-right: 0; }
   @media (max-width: 991px) {
-    /* line 225, stdin */
+    /* line 226, stdin */
     .about-photo {
       display: none; } }
 
-/* line 243, stdin */
+/* line 244, stdin */
 .come-in {
   -webkit-transform: translateX(200px);
   transform: translateX(200px);
   -webkit-animation: come-in 2s ease forwards;
   animation: come-in 2s ease forwards; }
 
-/* line 248, stdin */
+/* line 249, stdin */
 .already-visible {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -233,7 +234,7 @@ hr.small {
     transform: translateX(0); } }
 
 /* Skills/ "Tools of the Trade" */
-/* line 259, stdin */
+/* line 260, stdin */
 .skills {
   display: table;
   width: 100%;
@@ -244,10 +245,10 @@ hr.small {
   background-size: cover;
   -o-background-size: cover; }
   @media (max-width: 768px) {
-    /* line 259, stdin */
+    /* line 260, stdin */
     .skills {
       background: #07754F; } }
-  /* line 275, stdin */
+  /* line 276, stdin */
   .skills .skill, .skills .skill2 {
     background-color: rgba(94, 135, 128, 0.88);
     padding: 9px 0px;
@@ -257,14 +258,14 @@ hr.small {
     margin-right: 4%;
     margin-bottom: 4%; }
 
-/* line 287, stdin */
+/* line 288, stdin */
 .skill-active {
   -webkit-transform: translateY(130px);
   transform: translateY(130px);
   -webkit-animation: come-in 1.20s ease forwards;
   animation: come-in 1.20s ease forwards; }
 
-/* line 292, stdin */
+/* line 293, stdin */
 .skill2-active {
   -webkit-transform: translateY(160px);
   transform: translateY(160px);
@@ -272,72 +273,72 @@ hr.small {
   animation: come-in 0.6s ease forwards; }
 
 /* Portfolio */
-/* line 299, stdin */
+/* line 300, stdin */
 .portfolio {
   padding: 50px 0;
   background: #f0eceb; }
-  /* line 303, stdin */
+  /* line 304, stdin */
   .portfolio hr {
     border-top: 1px solid #282828; }
-  /* line 307, stdin */
+  /* line 308, stdin */
   .portfolio p {
     margin-bottom: 20px;
     height: 74px; }
     @media (max-width: 990px) {
-      /* line 307, stdin */
+      /* line 308, stdin */
       .portfolio p {
         display: none; } }
-  /* line 315, stdin */
+  /* line 316, stdin */
   .portfolio a {
     color: #243649; }
-  /* line 318, stdin */
+  /* line 319, stdin */
   .portfolio ul {
     padding-left: 0; }
-  /* line 322, stdin */
+  /* line 323, stdin */
   .portfolio li {
     display: inline;
     list-style-type: none;
     padding-right: 10px; }
-    /* line 326, stdin */
+    /* line 327, stdin */
     .portfolio li a {
       font-weight: 700; }
-  /* line 331, stdin */
+  /* line 332, stdin */
   .portfolio .btn {
     margin-top: 30px;
     color: white; }
 
-/* line 337, stdin */
+/* line 338, stdin */
 .portfolio-item {
   margin-bottom: 10px;
   border-radius: 2px; }
 
-/* line 342, stdin */
+/* line 343, stdin */
 .img-portfolio {
   width: 420px;
   height: 239px;
   margin: 0 auto;
   border: 2px solid rgba(95, 111, 86, 0.37);
   border-radius: 14px; }
-  /* line 348, stdin */
+  /* line 349, stdin */
   .img-portfolio:hover {
     opacity: 0.8; }
 
 /* testimonial */
-/* line 355, stdin */
+/* line 356, stdin */
 .testimonial {
   padding: 50px 0;
   background: #243649; }
 
 @media (min-width: 992px) {
-  /* line 361, stdin */
+  /* line 362, stdin */
   .mobile-rule {
     display: none; } }
 
 /* Blog */
-/* line 370, stdin */
+/* line 371, stdin */
 .blog .recent {
   list-style-type: none; }
-  /* line 373, stdin */
+  /* line 374, stdin */
   .blog .recent li {
     width: 20%;
     margin: 1%;
@@ -346,22 +347,22 @@ hr.small {
     display: inline-block; }
 
 /* Footer */
-/* line 385, stdin */
+/* line 386, stdin */
 footer {
   padding: 45px 0;
   background: #f0eceb; }
 
 @media print {
-  /* line 391, stdin */
+  /* line 392, stdin */
   h1 {
     font-size: 28px; }
-  /* line 394, stdin */
+  /* line 395, stdin */
   h2 {
     font-size: 25px; }
-  /* line 397, stdin */
+  /* line 398, stdin */
   h3 {
     font-size: 20px; }
-  /* line 400, stdin */
+  /* line 401, stdin */
   p, li, a {
     font-size: 16px; } }
 
