@@ -101,7 +101,17 @@ hr.small {
   color:$grey;
 } 
 
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-shadow: -1px 1px 1px #326132;
+}
 
+.fa-circle.fa-stack-2x {
+  text-shadow:-2px 2px 6px rgba(39, 80, 73, 0.88)
+}
 
 
 
@@ -309,6 +319,7 @@ hr.small {
   p {
     margin-bottom:20px;
     height:74px;
+    text-align:left;
 
     @media (max-width:990px) {
       display:none;
@@ -345,10 +356,18 @@ hr.small {
   width: 420px;
   height: 239px;
   margin: 0 auto;
-  border: 2px solid rgba(95, 111, 86, 0.37);
-  border-radius: 14px;
+
+    border-radius: 7px;
+    box-shadow: -1px 1px 6px 0px rgba(153, 153, 153, 0.5);
+  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);      
+
   &:hover {
     opacity: 0.8;
+    box-shadow: -4px 3px 8px 0px rgba(153, 153, 153, 0.5);
+  filter: grayscale(0%);  
+  -webkit-filter: grayscale(0%);  
+
   }
 }
 
