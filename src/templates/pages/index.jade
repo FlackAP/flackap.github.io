@@ -2,11 +2,11 @@ extends /layouts/main
 include /mixins/blog
 
 block content
-  a#menu-open.btn.btn-dark.btn-lg.toggle(href='#')
+  a#menu-open.btn.btn-dark.btn-lg.rounded.toggle(href='#')
     i.fa.fa-list-alt
   nav#sidebar
     ul.sidebar-nav
-      a#menu-close.btn.btn-dark.btn-lg.pull-right.toggle(href='#')
+      a#menu-close.btn.btn-dark.rounded.btn-lg.pull-right.toggle(href='#')
         i.fa.fa-times
       li.sidebar-brand
         a(href='#top') Flack AP
@@ -19,16 +19,17 @@ block content
 
   header#top.header
     .text-vertical-center
-      h1 
-        img(src="/images/bonsai.png")
-        | Flack AP
-      #subheadline
-        h3 
-          | <em>proper noun</em> \ˈflak-'ā-pē \ :
-          br
-          | Andy Flack, a front-end web developer with a passion for life-long education and all things caffeinated
-      br
-      a.btn.btn-dark.btn-lg.rounded(href='#about') Find Out More
+      .info
+        h1 
+          img(src="/images/bonsai.png")
+          | Flack AP
+        #subheadline
+          h3 
+            | <em>proper noun</em> \ˈflak-'ā-pē \ :
+            br
+            | Andy Flack, a front-end web developer with a passion for life-long education and all things caffeinated
+        br
+        a.btn.btn-dark.btn-lg.rounded(href='#about') Find Out More
 
   section#about.about
     .container

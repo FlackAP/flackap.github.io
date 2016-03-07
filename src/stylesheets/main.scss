@@ -75,6 +75,7 @@ i {
 
   &.rounded {
     border-radius: 2px;
+     box-shadow: 0px 1px 4px 0px #063806;
   }
 }
 
@@ -114,7 +115,7 @@ hr.small {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #16202C;
+  background: #133E1C;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
