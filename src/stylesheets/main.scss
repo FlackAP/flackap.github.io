@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Hind:500,400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
 @import "variables";
 
 html {
@@ -13,8 +14,13 @@ body {
 }
 
 
+h1, h2, h3, h4, h5 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h2 {
-  font-size:54px
+  font-size:54px;
+  font-weight:700px;
 }
 
 p {
@@ -215,6 +221,10 @@ hr.small {
   #subheadline {
     margin:0 auto;
     max-width:700px; 
+
+    h3 {
+      font-family: "Hind","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
 
     @media (max-width:740px){
         display:none;
