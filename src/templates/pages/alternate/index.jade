@@ -1,0 +1,33 @@
+extends /layouts/main
+include /mixins/blog
+
+block content
+  section.nav
+    ul
+      li Okay
+  footer
+    .container#contact
+      .row
+        .col-lg-10.col-lg-offset-1.text-center
+
+          h2 Contact Me!
+          p 
+            |I'm always interested in hearing about new opportunities and connecting with others,
+            br
+            |so feel free to drop me a line via Email or follow me!
+          ul.list-inline
+            li
+              a(href='mailto:Flack.AP@gmail.com' target="blank")
+                i.fa.fa-envelope.fa-fw.fa-3x
+            li
+              a(href='http://twitter.com/flackap' target="blank")
+                i.fa.fa-twitter.fa-fw.fa-3x
+            li
+              a(href='http://github.com/flackap' target="blank")
+                i.fa.fa-github.fa-fw.fa-3x
+            li
+              a(href='http://flackap.tumblr.com' target="blank")
+                i.fa.fa-tumblr.fa-fw.fa-3x
+          hr.small
+          p.text-muted(style="font-size:12px") Copyright © Andy Flack 2014
+
